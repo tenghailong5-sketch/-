@@ -2,6 +2,9 @@ name: Import Horizon upstream
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-horizon.yml'
 
 permissions:
   contents: write
